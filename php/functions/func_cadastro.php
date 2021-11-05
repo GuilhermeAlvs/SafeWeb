@@ -11,8 +11,6 @@
 
         include("conexao.php");
 
-        echo $_ENV['MYSQL_HOST'];die;
-
         $email=$_POST['email'];
         $senha=$_POST['senha'];
 
@@ -22,8 +20,6 @@
 
         if(mysqli_query($conn, $sql)){
             $_SESSION["mensagem"] = "Usuario cadastrado com sucesso";
-            
-            echo 'teste ok'; die;
 
             header("location: ../cadastrar/cadastro.php");
             die;
