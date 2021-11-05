@@ -1,4 +1,5 @@
 <?php
+    echo 'teste'; die;
     session_start();
 
     /*if (isset($_GET)) {
