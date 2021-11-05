@@ -11,6 +11,8 @@
 
         include("conexao.php");
 
+        echo $_ENV['MYSQL_HOST'];die;
+
         $email=$_POST['email'];
         $senha=$_POST['senha'];
 
