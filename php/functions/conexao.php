@@ -1,8 +1,8 @@
 <?php
-    require "../../vendor/autoload.php";
+    //require "../../vendor/autoload.php";
 
-    $dotenv = Dotenv\Dotenv::createImmutable('../../');
-    $dotenv->load();
+    //$dotenv = Dotenv\Dotenv::createImmutable('../../');
+    //$dotenv->load();
     
     $servidor=$_ENV['MYSQL_HOST'];
     $usuario=$_ENV['MYSQL_USER'];
