@@ -1,5 +1,4 @@
 <?php
-    echo 'teste'; die;
     session_start();
 
     /*if (isset($_GET)) {
@@ -21,11 +20,15 @@
 
         if(mysqli_query($conn, $sql)){
             $_SESSION["mensagem"] = "Usuario cadastrado com sucesso";
+            
+            echo 'teste ok'; die;
+
             header("location: ../cadastrar/cadastro.php");
             die;
         }
         else{
             echo "Error" .mysqli_connect_error($conn);
+            die;
         }
         mysqli_close($conn);
     //}
