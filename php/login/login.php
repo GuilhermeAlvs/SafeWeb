@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item m-auto active">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="../../index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../../Recomendacoes.html">Reclamações</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ReclameAqui.html">Reclame aqui</a>
+                    <a class="nav-link" href="../../ReclameAqui.html">Reclame aqui</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="perfil.html">Meu Perfil  </a>
+                    <a class="nav-link" href="../../perfil.html">Meu Perfil  </a>
                 </li>
             </ul>
         </div>
