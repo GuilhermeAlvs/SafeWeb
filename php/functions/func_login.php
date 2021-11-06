@@ -19,7 +19,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             echo "Login realizado com sucesso";
             die;
         } else {
-            echo "Erro";
+            echo "Conta não cadastrada";
             die;
         }
 
