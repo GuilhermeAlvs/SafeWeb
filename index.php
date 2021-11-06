@@ -53,9 +53,9 @@
     <div class="col-sm-12 col-md-12 col-lg-6">
     <h1 style="color: rgb(0, 153, 255);">SafeWeb: Mais segurança para você e sua família</h1>
       <p>Com a SafeWeb você pode checar facilmente o histórico de um vendedor ou de uma empresa, tornando suas compras online bem mais seguras</p>
-      <input type="text" class="emailHome" placeholder="Email" style="padding: 5px;">
-      <input type="text" class="senhaHome" placeholder="Senha" style="padding: 5px;">
-      <button type="button" class="btn btn-primary">Cadastrar</button>
+
+      <a href="php/cadastrar/cadastro.php"><button type="button" class="btn btn-primary">Cadastro</button></a><br><br>
+      <a href="php/login/login.php"><button type="button" class="btn btn-primary">Login</button></a>
     </div>
     <div class="col-sm-8 col-md-8 col-lg-6">
       <img src="segurança-internet.png" class="col-md-12 float-md-end mb-3 mt-3 ms-md-3" alt="...">
