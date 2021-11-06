@@ -30,7 +30,7 @@
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Recomendacoes.html">Reclamações</a>
+                    <a class="nav-link" href="../../Recomendacoes.html">Reclamações</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="ReclameAqui.html">Reclame aqui</a>
