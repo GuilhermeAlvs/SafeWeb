@@ -46,7 +46,7 @@
 
     <h4 class="card-title text-center mb-4 mt-1">Faça Login</h4>
     <p class="text-center">Se já possui uma conta faça login preenchendo os campos abaixo.</p>
-    <p class="text-center">Caso não tenha uma conta, clique em Cadastrar para criar uma!</p>
+    <p class="text-center">Caso não tenha uma conta, clique em <a href="../cadastrar/cadastro.php"> Cadastrar</a> para criar uma!</p>
 
     <div id="login-row" class="row justify-content-center align-items-center">
         <div id="login-column" class="col-md-8> 
