@@ -11,6 +11,7 @@
     <title>Cadastro de Usuario</title>
 </head>
 <body>
+    <h1>Cadastro</h1>
     <div>
         <?php
             if (isset($_SESSION["mensagem"])){
