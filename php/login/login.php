@@ -87,19 +87,19 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
               <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25 " style="color: white;">
               <ul class="list-unstyled">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="Recomendacoes.html">Recomendações</a></li>
-                  <li><a href="ReclameAqui.html">Reclame aqui</a></li>
-                  <li><a href="cadastro.html">Cadastro</a></li>
+                  <li><a href="../../index.php">Home</a></li>
+                  <li><a href="../../Recomendacoes.html">Recomendações</a></li>
+                  <li><a href="../../ReclameAqui.html">Reclame aqui</a></li>
+                  <li><a href="../../cadastro.php">Cadastro</a></li>
               </ul>
           </div>
 
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
               <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
               <ul class="list-unstyled">
-                  <li><a href="ReclameAqui.html">Pesquisa </a></li>
+                  <li><a href="../../ReclameAqui.html">Pesquisa </a></li>
                   <li><a href="">Contato </a></li>
-                  <li><a href="perfil.html">Meu Perfil </a></li>
+                  <li><a href="../../perfil.html">Meu Perfil </a></li>
               </ul>
           </div>
 
@@ -117,7 +117,7 @@
           </div>
           <div class="col-12 copyright mt-3">
               <p class="float-left">
-                  <a href="cadastro.html">Volte para o topo</a>
+                  <a href="login.php">Volte para o topo</a>
               </p>
       </div>
   </div>
