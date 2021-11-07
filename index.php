@@ -17,6 +17,21 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+  
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript"> 
+  </script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('dGVzdGVrb2Fvb3NrOmFkODhlOWQ2LTE3MjgtNDg2NC1iMWQyLTllNDhmNjFlMGZkMw==')
+            .withButton({"color":"#0324f7","icon":""})
+            .withCustomCommonUrl('https://matheus-fortes-fnxpt.chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+  
 <header>
  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
