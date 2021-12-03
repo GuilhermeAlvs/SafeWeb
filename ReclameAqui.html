@@ -99,20 +99,24 @@
             <div class="input-group mb-1">
 
 
-            <section class="section--row__responsive">
-			    <h1 class="generaltext">Listar produtos</h1>
-			        <form action="http://localhost:4567/produto/get"  method="get" id="form-all">
-			            <br><br><br>
-				        <input type="submit" value="Lojas banco de dados" class="input--consult__style input--button">
-			        </form>
-            </section>
-		<section class="section--row__responsive">
-			        <form  method="post" id="form-all">
-			            <br><br><br>
-				        <input onclick="pegarBD()" type="submit" value="Listar lojas no site" class="input--consult__style input--button">
-			        </form>
-            </section>
+                <section class="section--row__responsive">
+                    <h1 class="generaltext">Listar produtos</h1>
+                    <form action="http://localhost:4567/produto/get" method="get" id="form-all">
+                        <br><br><br>
+                        <input type="submit" value="Lojas banco de dados" class="input--consult__style input--button">
+                    </form>
+                </section>
+                <section class="section--row__responsive">
+                    <form method="post" id="form-all">
+                        <br><br><br>
+                        <input onclick="pegarBD()" value="Listar lojas no site"
+                            class="input--consult__style input--button">
+                    </form>
+                </section>
+                <div id="tela">
 
+                </div>
+                
 
             </div>
             <br>
@@ -126,19 +130,32 @@
         </div>
         </ul>
         <script>
-          function pegarBD() {
-    const request = new XMLHttpRequest();
-    request.open('GET', 'http://localhost:4567/produto')
-    request.onload = function () {
-}   
+            function pegarBD() {
+                let divTela = document.getElementById('tela');
+                let texto = '';
 
-request.onerror = function () {
-    console.log('erro');
-}
-
-request.send();
-
-   }
+                texto = texto + `
+                <ul>
+                    <li><a href="americanas.html"> Lojas Americanas </a></li>
+                    <li><a href="amazon.html"> Amazon</a></li>
+                    <li><a href="casasbahia.html"> Casas Bahia</a></li>
+                    <li><a href="camicado.html"> Camicado</a></li>
+                    <li><a href="fastshop.html"> Fast Shop</a></li>
+                    <li><a href="kabum.html"> Kabum!</a></li>
+                    <li><a href="magazine.html"> Magalu</a></li>
+                    <li><a href="polishop.html"> Polishop</a></li>
+                    <li><a href="mercado.html"> Mercado Livre</a></li>
+                    <li><a href="pontofrio.html"> Ponto</a></li>
+                    <li><a href="shoptime.html"> ShopTime</a></li>
+                    <li><a href="lider.html"> Líder interiores</a></li>
+                </ul>
+                `;
+          
+                
+    
+                // Preencher a DIV com o texto HTML
+                divTela.innerHTML = texto
+            }
         </script>
         </div>
     </main>
