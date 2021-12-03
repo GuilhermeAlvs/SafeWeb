@@ -126,9 +126,18 @@
         </div>
         </ul>
         <script>
-           function pegarBD() {
-    fetch('http://localhost:4567/produto')
-    .then(console.log)
+          function pegarBD() {
+    const request = new XMLHttpRequest();
+    request.open('GET', 'http://localhost:4567/produto')
+    request.onload = function () {
+}   
+
+request.onerror = function () {
+    console.log('erro');
+}
+
+request.send();
+
    }
         </script>
         </div>
