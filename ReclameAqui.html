@@ -109,7 +109,7 @@
 		<section class="section--row__responsive">
 			        <form action="http://localhost:4567/produto/add"  method="get" id="form-all">
 			            <br><br><br>
-				        <input type="submit" value="Listar lojas no site" class="input--consult__style input--button">
+				        <input onclick="pegarBG()" type="submit" value="Listar lojas no site" class="input--consult__style input--button">
 			        </form>
             </section>
 
@@ -126,45 +126,11 @@
         </div>
         </ul>
         <script>
-            function searchbar() {
-                var input, filter, ul, li, a, i, txtValue;
-                input = document.getElementById("myInput");
-                filter = input.value.toUpperCase();
-                ul = document.getElementById("listaLojas");
-                li = ul.getElementsByTagName("li");
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a", "h3")[0];
-                    txtValue = a.textContent || a.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        li[i].style.display = "";
-                    } else {
-                        li[i].style.display = "none";
-                    }
-                }
-            }
-
-            function getLoja() {
-                $.ajax({
-                    url: 'https://safewebguilherme.herokuapp.com/lojas/',
-                    //${localStorage.getItem("email")}
-                    type: "GET",
-                    dataType: "json"
-                }).done(function (data) {
-                    console.log(data);
-                    var tab = document.getElementById("mainTable");
-                    for (i = 0; i < data.length; i++) {
-                        tab.innerHTML =
-                            '<tr>' +
-                            '<th style="color: rgb(249,252,255);">' + data[i].site + '</th>' +
-                            '<th style="color: #ffffff;">' + data[i].username + '</th>' +
-                            '<th style="color: #ffffff;">' + data[i].valor + '</th>' +
-                            '</tr>'
-                    }
-                    //window.location.replace("/userPage.html");
-                }).fail(function (error) {
-                    //alert( "Senha inválida" );
-                })
-            }
+           function pegarBD() {
+    fetch('localhost:4567/produto/get')
+    .then(T => T.json())
+    .then(console.log)
+   }
         </script>
         </div>
     </main>
