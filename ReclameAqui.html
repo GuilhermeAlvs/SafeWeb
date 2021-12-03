@@ -22,18 +22,19 @@
 </head>
 <style>
     input {
-    padding: 9px 25px;
-    background-color: rgb(100, 100, 100);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: white;
+        padding: 9px 25px;
+        background-color: rgb(100, 100, 100);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        color: white;
     }
 
     input:hover {
-    background-color: rgba(0, 153, 255, 0.8);
+        background-color: rgba(0, 153, 255, 0.8);
     }
+
     .grid-container {
         display: grid;
         grid-column-gap: 15px;
@@ -100,9 +101,10 @@
 
                 <section class="section--row__responsive">
                     <h1 class="generaltext">Listar produtos</h1>
-                    <form action="http://localhost:6789/lojas"  method="get" id="form-all">
+                    <form method="get">
                         <br><br><br>
-                        <input type="submit" value="Listar todas as lojas" class="input--consult__style input--button">
+                        <input onclick="getLoja()" type="submit" value="Listar todas as lojas"
+                            class="input--consult__style input--button">
                     </form>
                 </section>
 
@@ -134,6 +136,29 @@
                         li[i].style.display = "none";
                     }
                 }
+            }
+
+            function getLoja() {
+                $.ajax({
+                    url: 'http://0.0.0.0:4567/lojas/',
+                    //${localStorage.getItem("email")}
+                    type: "GET",
+                    dataType: "json"
+                }).done(function (data) {
+                    console.log(data);
+                    var tab = document.getElementById("mainTable");
+                    for (i = 0; i < data.length; i++) {
+                        tab.innerHTML =
+                            '<tr>' +
+                            '<th style="color: rgb(249,252,255);">' + data[i].site + '</th>' +
+                            '<th style="color: #ffffff;">' + data[i].username + '</th>' +
+                            '<th style="color: #ffffff;">' + data[i].valor + '</th>' +
+                            '</tr>'
+                    }
+                    //window.location.replace("/userPage.html");
+                }).fail(function (error) {
+                    //alert( "Senha inválida" );
+                })
             }
         </script>
         </div>
