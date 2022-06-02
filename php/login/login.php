@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafeWeb</title>
+    <title>Trustweb</title>
     <meta name="description" content="Site para conferir se uma compra e confiavel">
     <meta name="keywords" content="compras">
     <meta name="author" content="Matheus Fortes">
@@ -19,7 +19,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="../../index.php">SafeWeb</a>
+        <a class="navbar-brand" href="../../index.php">Trustweb</a>
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button> -->
@@ -77,7 +77,7 @@
   <div class="container">
       <div class="row">
           <div class="col-md-3 col-lg-4 col-xl-3">
-              <h5>SafeWeb</h5>
+              <h5>Trustweb</h5>
               <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
               <p class="mb-0">
                   Projeto de um site para verificação de compras online
