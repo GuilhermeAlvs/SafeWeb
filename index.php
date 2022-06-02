@@ -7,8 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafeWeb</title>
-    <meta name="description" content="Site para conferir se uma compra e confiavel">
+    <title>TrustWeb</title>
     <meta name="keywords" content="compras">
     <meta name="author" content="Matheus Fortes">
     <link type="stylesheet" href="style.css">
