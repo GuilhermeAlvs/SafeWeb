@@ -35,7 +35,7 @@
  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="index.php">SafeWeb</a>
+        <a class="navbar-brand" href="index.php">Trustweb</a>
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button> -->
@@ -65,8 +65,8 @@
   <div class="container">
       <div class="row">
     <div class="col-sm-12 col-md-12 col-lg-6">
-    <h1 style="color: rgb(0, 153, 255);">SafeWeb: Mais segurança para você e sua família</h1>
-      <p>Com a SafeWeb você pode checar facilmente o histórico de um vendedor ou de uma empresa, tornando suas compras online bem mais seguras</p>
+    <h1 style="color: rgb(0, 153, 255);">Trustweb: Mais segurança para você e sua família</h1>
+      <p>Com a Trustweb você pode checar facilmente o histórico de um vendedor ou de uma empresa, tornando suas compras online bem mais seguras</p>
 
       <a href="php/cadastrar/cadastro.php"><button type="button" class="btn btn-primary">Cadastro</button></a><br><br>
       <a href="php/login/login.php"><button type="button" class="btn btn-primary">Login</button></a>
@@ -83,7 +83,7 @@
             <img src="comprasNaInternet.jpg" class="col-md-12 float-md-end mb-3 ms-md-3" alt="...">
         </div> 
     <div class="col-sm-12 col-md-12 col-lg-6">
-      <h2 style="color: rgb(0, 153, 255);">Com a SafeWeb você está protegido de golpes.</h2>
+      <h2 style="color: rgb(0, 153, 255);">Com a Trustweb você está protegido de golpes.</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis facilis harum sit possimus eos iure ducimus ut nesciunt? Incidunt laborum at maiores autem ipsa hic labore accusantium voluptate magnam eligendi unde maxime optio reiciendis quisquam provident sit placeat, architecto aspernatur.</p>
     </div>
     </div>
@@ -110,7 +110,7 @@
   <div class="container">
       <div class="row">
           <div class="col-md-3 col-lg-4 col-xl-3">
-              <h5>SafeWeb</h5>
+              <h5>Trustweb</h5>
               <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
               <p class="mb-0">
                   Projeto de um site para verificação de compras online
@@ -131,7 +131,6 @@
               <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
               <ul class="list-unstyled">
                   <li><a href="ReclameAqui.html">Pesquisa </a></li>
-                  <li><a href="https://wa.me/5531981166116/?text=Ol%C3%A1%2C+estou+precisando+de+suporte%21" target="_blank">Suporte </a></li>
                   <li><a href="perfil.html">Meu Perfil </a></li>
               </ul>
           </div>
